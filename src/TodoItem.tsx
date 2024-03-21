@@ -1,6 +1,5 @@
 import React from 'react';
 
-// todo props 
 
 interface Todo {
     id: number;

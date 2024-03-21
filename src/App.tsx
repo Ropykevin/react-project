@@ -23,6 +23,7 @@ const App: React.FC = () => {
 
   const deleteTodo = (id: number) => {
     setTodos(todos.filter(todo => todo.id !== id));
+    console.log(todos)
   };
 
   return (
