@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Checkstatus from './checkstatus';
 
 
 const Contact: React.FC = () => {
@@ -45,6 +46,7 @@ const Contact: React.FC = () => {
 
     return (
         <div className="container mt-5">
+            <Checkstatus />
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <h1 className="mb-4">Contact Page</h1>
